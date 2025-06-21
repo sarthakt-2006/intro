@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar Dressing');
+@import url('https://fonts.googleapis.com/css2?family=Jersey 15');
+body,
+.headings,
+.intro,
+.subheading,
+.wallpaper1,
+.wallpaper2,
+.info_border {
+    border-radius: 20px;
+}
+body {
+    background-color: rgb(16, 24, 40, 0.2);
+    border: 2px solid rgb(16, 24, 40);
+    margin: 15px;
+}
+.info_border {
+    border: 2px solid rgb(16, 24, 40);
+    background-color: rgb(16, 24, 40, 0.4);
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.photo {
+    height: 256px;
+    width: 192px;
+    border-radius: 300px;
+    margin-left: 75px;
+    margin-right: 0px;
+    border: 2px solid rgb(16, 24, 40);
+}
+.info {
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    color: rgb(16, 24, 40);
+    font-size: 22px;
+    font-family: "Jersey 15", monospace;
+}
+.highlight {
+    background-color: yellow;
+}
+.headings {
+    color: rgb(169, 121, 43);
+    background-color: rgb(16, 24, 40);
+    font-family: "Caesar Dressing", serif;
+    text-align: center;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.intro {
+    color: rgb(16, 24, 40);
+    background-color: rgba(16, 24, 40, 0.4);
+    font-family: "Jersey 15",monospace;
+    font-size: 22px;
+    text-align: left;
+    outline: 2px solid rgb(16, 24, 40);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+.subheading {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: "Jersey 15", monospace;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 1000;
+    background-color: red;
+    color: white;
+}
+.project {
+    display: flex;
+    flex: 1;
+    height: fit-content;
+    width: fit-content;
+}
+.project1,
+.project2 {
+    height: 360px;
+    width: 480px;
+    outline: 2px solid rgb(16, 24, 40);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+.bmc {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 558px;
+    margin-right: 558px;
+    border: 2px solid rgb(16, 24, 40);
+    background-color: rgb(16, 24, 40, 0.4);
+    padding: 10px;
+    border-radius: 30px;
+}
