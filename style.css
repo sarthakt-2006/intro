@@ -6,7 +6,7 @@ body,
 .subheading,
 .wallpaper1,
 .wallpaper2,
-.info_border {
+.info_flexbox {
     border-radius: 20px;
 }
 body {
@@ -14,28 +14,29 @@ body {
     border: 2px solid rgb(16, 24, 40);
     margin: 15px;
 }
-.info_border {
-    border: 2px solid rgb(16, 24, 40);
+.info_flexbox {
     background-color: rgb(16, 24, 40, 0.4);
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
     margin-left: 25px;
     margin-right: 25px;
+    height: fit-content;
+}
+.info_sudo {
+    flex: 0.2;
+}
+.photo_flexbox {
+    width: fit-content;
 }
 .photo {
-    height: 256px;
-    width: 192px;
+    height: auto;
+    width: 144px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border-radius: 300px;
-    margin-left: 75px;
-    margin-right: 0px;
     border: 2px solid rgb(16, 24, 40);
 }
-.info {
-    height: fit-content;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: 25px;
+.resume_flexbox {
+    flex: 2;
     color: rgb(16, 24, 40);
     font-size: 22px;
     font-family: "Jersey 15", monospace;
@@ -64,12 +65,16 @@ body {
     margin-right: 25px;
     padding: 10px;
 }
+.subheading_flexbox {
+    display: flex;
+}
+.subheading_sudo {
+    flex: 1;
+}
 .subheading {
+    flex: 2;
+    width: fit-content;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    margin-left: 400px;
-    margin-right: 400px;
     font-family: "Jersey 15", monospace;
     font-size: 20px;
     padding: 5px;
@@ -77,28 +82,38 @@ body {
     background-color: red;
     color: white;
 }
-.project {
+.project_flexbox {
     display: flex;
-    flex: 1;
     height: fit-content;
-    width: fit-content;
+    margin-top: 50px;
+}
+.project_sudo {
+    flex: 1;
 }
 .project1,
 .project2 {
-    height: 360px;
-    width: 480px;
+    flex: 3;
+    max-width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.project_img_1,
+.project_img_2 {
+    height: 25vw;
+    width: 30vw;
     outline: 2px solid rgb(16, 24, 40);
     border-radius: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 93px;
-    margin-right: 93px;
 }
-.bmc {
-    margin-top: 25px;
+.bmc_flexbox {
+    display: flex;
+    height: fit-content;
+    margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 558px;
-    margin-right: 558px;
+}
+.bmc_sudo {
+    flex: 1;
+}
+.bmc_img {
     border: 2px solid rgb(16, 24, 40);
     background-color: rgb(16, 24, 40, 0.4);
     padding: 10px;
